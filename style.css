@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-items: center;
+  row-gap: 32px;
+}
+body {
+  color: #444;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+#value {
+  font-size: 102px;
+  font-weight: 800;
+}
+
+.btn {
+  padding: 9px 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-left: 22px;
+  cursor: pointer;
+  color: #444;
+}
